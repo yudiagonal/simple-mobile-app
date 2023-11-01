@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KalkulatorIcikiwir">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="KALKULATOR ICIKIWIR"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="Angka 1"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TextAngka1"
+        android:layout_width="315dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+        android:text="Angka 2"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TextAngka2"
+        android:layout_width="315dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="244dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:text="Hasil"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TextHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnTambah"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="304dp"
+        android:text="+"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnKurang"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="304dp"
+        android:text="-"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.385"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnKali"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="304dp"
+        android:text="x"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBagi"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="304dp"
+        android:text="%"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBersih"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:text="Bersihkan"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

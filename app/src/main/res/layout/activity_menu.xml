@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background2"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/textmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="MENU"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnKalkulator"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="344dp"
+        android:text="Kalkulator Icikiwir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDataDiri"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnKonten"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:text="Blood Python"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnWeb"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="296dp"
+        android:text="Github"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
