@@ -35,6 +35,9 @@ public class Login extends AppCompatActivity {
                     if (ed1.getText().toString().equals("admin") && ed2.getText().toString().equals("admin")) {
 
                         Toast.makeText(getApplicationContext(), "Login Berhasi...", Toast.LENGTH_SHORT).show();
+                        Intent i = new Intent(getApplicationContext(), Menu.class);
+                        startActivity(i);
+
                     } else {
                         Toast.makeText(getApplicationContext(), "Login Gagal!", Toast.LENGTH_SHORT).show();
                         tx1.setVisibility(View.VISIBLE);
@@ -47,15 +50,6 @@ public class Login extends AppCompatActivity {
                         }
                     }
                 }
-            }
-        });
-        Button btnlogin = (Button) findViewById(R.id.btnLogin);
-        btnlogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0) {
-                Intent i = new Intent(getApplicationContext(), Menu.class);
-                startActivity(i);
-
             }
         });
 

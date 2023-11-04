@@ -1,75 +1,26 @@
 <resources>
     <string name="app_name">DataPribadiYudiAsmara</string>
-    <string name="title_activity_scrolling">Tentang Blood Python</string>
+    <string name="title_activity_scrolling">Sejarah GO</string>
     <string name="isi_konten">
-        "Tentang Ular Blood Pyhton Brongersmai.\n\n"
+        "Apa Bahasa Pemrograman Go itu?
 
-        "Nama Latin Python Curtus Brongersmai, Python Curtus Curtus, Python Curtus Breitensteini\n\n"
+Go adalah bahasa pemrograman open-source yang dibuat oleh Google pada tahun 2007. Tujuan pembuatan bahasa ini adalah untuk meningkatkan produktivitas para programmer dalam membuat aplikasi dengan memberikan sintaks yang mudah dipahami, performa yang tinggi, dan mendukung pemrograman konkuren. Go dirancang untuk memudahkan pembuatan aplikasi dalam lingkungan yang kompleks dan besar, seperti aplikasi web dan sistem operasi, dengan menggabungkan fitur-fitur dari bahasa pemrograman lainnya seperti C dan Python. Bahasa pemrograman ini memiliki beberapa fitur unggulan seperti garbage collector, penggunaan goroutine untuk pemrograman konkuren, dan dukungan untuk beberapa jenis data seperti array, slice, dan map. Go juga memiliki komunitas pengembang yang aktif, yang menghasilkan banyak library dan framework yang dapat membantu programmer dalam mengembangkan aplikasi dengan cepat.
 
-        "Daerah Asal :\n\n"
+Sejarah Pembuatan Bahasa Pemrograman Go
 
-        "Semenanjung Malaysia, sumatra bagian timur dan sumatra bagian tengah (dibatasi oleh pegunungan),"
-        "pulau bangka, pulau2 di selat malaka, termasuk kepulauan lingga, kepulauan riau dan pinang.\n\n"
+Bahasa pemrograman Go pertama kali dikembangkan oleh Google pada tahun 2007. Tim pengembang yang terdiri dari Robert Griesemer, Rob Pike, dan Ken Thompson merancang Go untuk mengatasi masalah dalam pengembangan perangkat lunak di lingkungan perusahaan seperti kompleksitas, kecepatan, dan keamanan. Google merilis Go sebagai open-source pada tahun 2009 dan membangun komunitas pengembang yang aktif. Pada tahun yang sama, Go diumumkan sebagai bahasa pemrograman resmi untuk pengembangan perangkat lunak internal Google. Bahasa pemrograman ini mulai populer di luar Google pada tahun 2010 ketika perusahaan lain mulai mengadopsinya. Go dirilis dalam versi 1.0 pada tahun 2012, menandai stabilitas dan kematangan bahasa pemrograman ini. Go terus berkembang dan menjadi bahasa pemrograman populer di kalangan pengembang perangkat lunak, digunakan untuk mengembangkan berbagai jenis aplikasi seperti perangkat lunak server, aplikasi web, dan perangkat lunak sistem.
 
-        "Ukuran :\n\n"
+Kelebihan dan Kekurangan Bahasa Pemrograman Go
 
-        "Ukuran jantan dewasa berkisar1 s/d 1.8 m, sedangkan betina bewasa 1.5 s/d 2.5 m\n\n"
+Go memiliki beberapa kelebihan, di antaranya performa yang tinggi, mudah dipelajari, pemrograman konkuren, open-source, dan memiliki komunitas pengembang yang aktif. Namun, bahasa pemrograman ini juga memiliki beberapa kekurangan, seperti kurangnya dukungan terhadap paradigma OOP, kurangnya dukungan untuk generics, lingkungan pengembangan terbatas, dokumentasi yang kurang, dan kurangnya pengalaman di antara perusahaan.
 
-        "Umur :\n\n"
+Fitur Utama Bahasa pemograman Go
 
-        "Dipong/ blood phyton dapat berumur lebih dari 20 thn dalam suatu peternakan (penangkaran).\n\n"
+Go, bahasa pemrograman yang memiliki beberapa fitur utama, salah satunya adalah garbage collector yang efisien sehingga dapat mengoptimalkan penggunaan memori. Go juga menawarkan fitur pemrograman konkuren yang mudah digunakan, memungkinkan programmer untuk mengembangkan aplikasi yang berjalan secara paralel tanpa perlu menulis kode yang rumit. Selain itu, Go dirancang dengan sintaksis yang mudah dipahami dan mendukung beberapa jenis data seperti array, slice, dan map sehingga memudahkan programmer dalam mengelola data. Go juga didesain untuk memadukan fitur-fitur dari bahasa pemrograman lainnya seperti bahasa C dan bahasa Python, sehingga programmer dengan pengalaman dalam bahasa tersebut dapat dengan mudah belajar Go. Selain itu, Go juga bersifat open source, memiliki komunitas pengembang yang besar, dan memiliki sistem pemrosesan error yang kuat, sehingga memudahkan programmer dalam menangani error yang terjadi dalam aplikasi. Go juga dikembangkan dengan tujuan untuk memiliki performa yang cepat dan efisien, terutama dalam pengolahan data berskala besar dan fitur keamanan yang tinggi.
 
-        "Sifat :\n\n"
+Go juga dapat digunakan untuk mengembangkan aplikasi web dengan performa tinggi dan pengolahan data berskala besar, seperti backend web, microservices, pemrosesan data, aplikasi realtime, dan web scraping. Dalam pengembangan aplikasi web, Go dapat bekerja dengan teknologi lain seperti database SQL dan NoSQL, protokol HTTP, HTML, CSS, dan JavaScript. Go juga didukung oleh beberapa tools dan frameworks seperti GoLand, Revel, Gin, dan Beego untuk memudahkan programmer dalam mengembangkan aplikasi.
 
-        "Pada usia baru lahir (baby) umumnya Dipong/ Blood pyton, sangat mudah takut, "
-        "terkejut dan sedikit pemalu, tetapi setelah beradaptasi dengan lingkungan di sekitar,"
-        "maka mereka akan menjadi ular yang jinak\n\n"
-
-        "Kandang :\n\n"
-
-        "Dipong/Blood Phyton merupakan jenis ular yang menyukai tingkat kelembaban yang tinggi, "
-        "untuk itu diperlukan suatu kandang yang memiliki tingkat ventilaasi udara yang bagus "
-        "untuk menjaga tingkat kelembaban suhu.Perawatan dipong/ Blood phyton memerlukan suhu "
-        "rata-rata 80’ F, \n\n"
-
-        "Dipong/ blood phyton merupakan jenis ular yang senang merendam dirinya/menyembunyikan "
-        "dirinya. Disarankan untuk memberikan tanaman sphagnum di dalam kandang, namun hal ini "
-        "tidak harus dilakukan. Sebagai penggantinya hiding place harus ada dalam kandang, "
-        "namun pada usia 1 th ke atas hiding place tidak harus ada, hal ini dikarenakan dipong muda "
-        "membutuhkan waktu beberapa hari untuk beradaptasi dengan lingkungan kandang baik itu suhu "
-        "maupun kondisi kandang, untuk itu hiding placa sangat membantu untuk beradaptasi.\n\n"
-
-        "Pemberian hiasan (tanaman, bebatuan, dll) tidak di wajibkan, umunya kandang hanya berupa "
-        "box dengan ukuran yang disesuaikan menggunakan alas kertas dengan tempat air/ minum yang "
-        "harus ada.\n\n"
-
-        "Makan :\n\n"
-
-        "Dalam pemeliharaan, pemberian makan dilakukan seperti halnya ular-ular lain, "
-        "dipong pada umumnya memakan tikus putih yang banyak di jual di pasar-pasar hewan/ peternakan "
-        "tikus/ reptile pet shop. Umumnya dipong usia di bawah 1 th di berikan tikus putih "
-        berukuran sedang, di atas 1 th dapat di berikan tikus putih yang lebih besar, sebaiknya "
-        berikan ukuran makan yang hanya 2x besar kepalanya. Pemberian makan dapat dilakukan 4-7 hari "
-        "sekali..\n\n"
-
-        "Banyak anggapan bahwa dipong/ blood phyton bukan merupakan ular yang diperuntukan bagi "
-        "pemula, anggapan ini muncul setelah seringkali muncul problem dipong yang susah makan. "
-        "Diperlukan tingkat kesabaran yang tinggi apabila menjumpai kasus tersebut.\n\n"
-
-        "Istilah suap mngkin akan sering di dengar bagi para pemula yang mengalamni kasus diatas, "
-        "suap dilakukan apabila ular tidak mau makan dalam jangka waktu yang lama, biasanya "
-        "2-3 minggu setelah ular dipelihara. Menyuap ular disarankan dilakukan berasama orang yang "
-        "berpengalaman karena hal ini merupakan opsi terakhir yang harus dilakukan ketika dipong "
-        "tidak mau makan.\n\n"
-
-        "Ganti kulit/ sheeding :\n\n"
-
-        "Ular berganti kulit dalam 1 bagian. Biasanya proses dimulai dari ular menjadi tidak aktif, "
-        "warna menjadi kusam, mata tertutup selaput berwarna biru atau ungu. Kemudian kulit kembali "
-        "menjadi cerah setelah itu ular akan shedding. Pada baby, biasanya ular akan shedding sebulan "
-        "sekali. Waktu untuk shedding akan berkurang seiring dengan bertambahnya umur. "
-        "Pada saat proses shedding, kelembaban harus ditambah. Bisa dengan merendam ular selama "
-        "15 menit di air hangat, atau dengan menggunakan humidity box.\n\n"
+Jadi, dengan fitur-fitur yang lengkap dan dukungan yang kuat dari komunitas pengembang dan tools yang mendukung, Go menjadi pilihan yang menarik untuk pengembangan aplikasi web yang skalabilitas dan performa tinggi"
     </string>
     <string name="hak_cipta">
 
