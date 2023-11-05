@@ -47,5 +47,13 @@ public class Menu extends AppCompatActivity {
 
            }
        });
+        Button btnsosmed = (Button)findViewById(R.id.btnSosialMedia);
+        btnsosmed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), SosialMedia.class);
+                startActivity(i);
+            }
+        });
     }
 }
