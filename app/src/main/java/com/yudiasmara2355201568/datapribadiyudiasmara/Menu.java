@@ -2,8 +2,8 @@ package com.yudiasmara2355201568.datapribadiyudiasmara;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -52,6 +52,14 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), SosialMedia.class);
+                startActivity(i);
+            }
+        });
+        Button btnatbacttivity = (Button)findViewById(R.id.btntabs);
+        btnatbacttivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), TabsActivity.class);
                 startActivity(i);
             }
         });

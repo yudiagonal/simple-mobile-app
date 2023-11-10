@@ -15,6 +15,9 @@
         android:theme="@style/Theme.DataPribadiYudiAsmara"
         tools:targetApi="31">
         <activity
+            android:name=".TabsActivity"
+            android:exported="true" />
+        <activity
             android:name=".SosialMedia"
             android:exported="true" />
         <activity
