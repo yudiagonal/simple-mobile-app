@@ -3,14 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/bg_tab2"
     tools:context=".PengalamanFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="PENGALAMAN"
-        android:gravity="center"
-        android:textSize="32sp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pengalamansaya"
+        android:textColor="#EFF8FE"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:translationX="35dp"
+        android:translationY="250dp"/>
 
 </FrameLayout>

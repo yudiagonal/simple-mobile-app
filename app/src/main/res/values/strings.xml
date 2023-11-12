@@ -121,4 +121,34 @@ Jadi, dengan fitur-fitur yang lengkap dan dukungan yang kuat dari komunitas peng
     <string name="title_activity_konten_scrolling">KontenScrolling</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    KONTEN UNTUK TAB ACTIVITY-->
+    <string name="biodatasaya">
+        "\n"
+        "Nama\t\t\t\t\t: Yudi Asmara\n\n"
+        "Hobi\t\t\t\t\t\t: Meluruskan pinggang\n"
+        "\t\t\t\t\t\t\t\t\t sambil memejamkan mata\n\n"
+        "Domisili\t\t\t\t: Bekasi"
+    </string>
+
+    <string name="pendidikansaya">
+        "\n\n"
+        "SD\t\t\t\t\t: SDN KARANGREJA 02\n\n"
+        "SMP\t\t\t: SMP N 3 CIPARI\n\n"
+        "SMK\t\t\t: SMK SANDIKTA Bekasi"
+    </string>
+
+    <string name="pengalamansaya">
+        "\n"
+        "2022\t\t: Magang Junior Programmer\n"
+        "\t\t\t\t PT. Medika Solusi Pratamajaya"
+
+    </string>
+    <string name="profilesaya">
+        "\n"
+        "NAMA\t\t\t\t\t\t\t\t\t\t\t: Yudi Asmara\n\n"
+        "NIM\t\t\t\t\t\t\t\t\t\t\t\t\t: 2355201568\n\n"
+        "PRODI\t\t\t\t\t\t\t\t\t\t\t: Teknik Informatika\n\n"
+        "MOTIVASI HIDUP\t\t\t\t: Hidup Seperti Dede Inoen"
+    </string>
 </resources>

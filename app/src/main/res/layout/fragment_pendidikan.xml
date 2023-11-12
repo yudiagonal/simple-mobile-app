@@ -3,14 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/bg_tab2"
     tools:context=".PendidikanFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="PENDIDIKAN"
-        android:gravity="center"
-        android:textSize="32sp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pendidikansaya"
+        android:gravity="left"
+        android:textColor="#EFF8FE"
+        android:textSize="18sp"
+        android:translationX="65dp"
+        android:translationY="250dp"/>
 
 </FrameLayout>

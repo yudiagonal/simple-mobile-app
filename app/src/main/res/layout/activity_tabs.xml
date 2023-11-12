@@ -14,23 +14,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tabSelectedTextColor="@color/white"
+        app:tabSelectedTextColor="@color/primaryColor2"
         app:tabTextColor="@color/black">
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabChat"
+            android:id="@+id/tabBio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="BIODATA"/>
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabStatus"
+            android:id="@+id/tabPendidikan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="PENDIDIKAN"/>
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabPanggilan"
+            android:id="@+id/tabPengalaman"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="PENGALAMAN"/>

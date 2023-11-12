@@ -3,14 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/bio_pp"
     tools:context=".BioFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="BIODATA"
-        android:gravity="center"
-        android:textSize="32sp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:gravity="left"
+        android:text="@string/biodatasaya"
+        android:textColor="#EFF8FE"
+        android:textSize="14sp"
+        android:translationX="10dp"
+        android:translationY="350dp" />
 
 </FrameLayout>

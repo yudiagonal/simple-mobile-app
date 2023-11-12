@@ -11,16 +11,16 @@ import com.google.android.material.tabs.TabLayout;
 public class TabsActivity extends AppCompatActivity {
 
     private TabLayout tabLayout;
-    private TabItem tabChat, tabStatus, tabPaggilan;
+    private TabItem tabBio, tabPendidikan, tabPengalaman;
     private ViewPager viewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tabs);
         tabLayout = findViewById(R.id.tabLayout);
-        tabChat = findViewById(R.id.tabChat);
-        tabStatus = findViewById(R.id.tabStatus);
-        tabPaggilan= findViewById(R.id.tabPanggilan);
+        tabBio = findViewById(R.id.tabBio);
+        tabPendidikan = findViewById(R.id.tabPendidikan);
+        tabPengalaman= findViewById(R.id.tabPengalaman);
         viewPager= findViewById(R.id.viewPager);
 
         PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
