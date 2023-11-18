@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +16,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DataPribadiYudiAsmara"
         tools:targetApi="31">
+        <activity
+            android:name=".StartGame"
+            android:exported="true" />
+        <activity
+            android:name=".PuzzleGame"
+            android:exported="true" />
+        <activity
+            android:name=".AlarmApp"
+            android:exported="true" />
         <activity
             android:name=".LunchTray"
             android:exported="false" />
@@ -61,6 +72,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".AlarmBroadcastReceiver" />
     </application>
 
 </manifest>

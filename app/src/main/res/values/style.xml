@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonStyle">
+        <item name="android:layout_width">60dp</item>>
+        <item name="android:layout_height">60dp</item>>
+        <item name="android:onClick">buttonClick</item>>
+    </style>>
+
+</resources>

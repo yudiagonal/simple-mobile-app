@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:text="KALKULATOR ICIKIWIR"
+        android:text="KALKULATOR"
         android:fontFamily="@font/poppinssemibold"
         android:textColor="#EFF8FE"
         android:textSize="16sp"

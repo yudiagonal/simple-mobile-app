@@ -63,5 +63,22 @@ public class Menu extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        Button btnalarm = (Button)findViewById(R.id.btnAlarm);
+        btnalarm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), AlarmApp.class);
+                startActivity(i);
+            }
+        });
+
+        Button btnkegame = (Button) findViewById(R.id.btnKeGame);
+        btnkegame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), StartGame.class);
+                startActivity(i);
+            }
+        });
     }
 }

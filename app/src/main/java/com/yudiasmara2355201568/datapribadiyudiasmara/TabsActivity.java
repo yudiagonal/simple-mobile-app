@@ -29,7 +29,7 @@ public class TabsActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
 
         if(getSupportActionBar() != null){
-            getSupportActionBar().setTitle("WhatsApp");
+            getSupportActionBar().setTitle("BIODATA");
         }
     }
-    }
+}
